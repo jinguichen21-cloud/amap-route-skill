@@ -1,0 +1,31 @@
+# Skill package ignore rules
+# Files matching these patterns will be excluded from the package
+
+# Development files
+.git/
+.gitignore
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test files
+test/
+tests/
+__pycache__/
+*.pyc
+*.pyo
